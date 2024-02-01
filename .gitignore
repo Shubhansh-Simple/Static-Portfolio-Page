@@ -1,0 +1,9 @@
+# Avoid vim swap files
+*swp
+
+# Remove any document
+*pdf
+
+# Remove profile pic
+profile*jpg
+
