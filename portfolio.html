@@ -17,6 +17,14 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
         crossorigin="anonymous">
 
+  <style>
+    .no-border {
+      border-left : none;
+      flex-direction: initial;
+      justify-content: initial;
+    }
+  </style>
+
   <!-- Custom Css & JS -->
   <link rel="stylesheet" href="files/script.css">
   <script src="files/script.js"></script>
@@ -41,13 +49,13 @@
 
             <!------------Profile Picture----------->
             <div class="col-md-6">
-              <img src="./files/profile-2.jpg" alt="Himanshu Profile Pic" class="img-fluid rounded-circle" width="350" height="350">
+              <img src="./files/profile-1.jpg" alt="Himanshu Profile Pic" class="img-fluid rounded-circle" width="350" height="350">
             </div>
 
             <div class="col-md-6">
 
               <!------------ FULL NAME------------>
-              <h1 class="display-4">Himanshu<br>Chourasia</h1>
+              <h1 class="display-3">Himanshu<br>Chourasia</h1>
               
               <!------------ PROFESSION------------>
               <h5 class="text-danger"><b>Senior Administrator</b></h5>
@@ -57,11 +65,11 @@
 
               <!------------ SKILLS------------>
               <br>
-              <button type="button" class="py-0 px-2 disabled btn btn-sm btn-primary">HTML</button>
-              <button type="button" class="py-0 px-2 disabled btn btn-sm btn-success">CSS</button>
-              <button type="button" class="py-0 px-2 disabled btn btn-sm btn-danger">Javascript</button>
-              <button type="button" class="py-0 px-2 disabled btn btn-sm btn-secondary">Python</button>
-              <button type="button" class="py-0 px-2 disabled btn btn-sm btn-warning text-dark">Troubleshooting</button>
+              <button type="button" class="py-0 px-0  btn btn-sm btn-primary">HTML</button>
+              <button type="button" class="py-0 px-0  btn btn-sm btn-success">CSS</button>
+              <button type="button" class="py-0 px-0  btn btn-sm btn-danger">Javascript</button>
+              <button type="button" class="py-0 px-0  btn btn-sm btn-secondary">Python</button>
+              <button type="button" class="py-0 px-0  btn btn-sm btn-warning text-dark">Customer Service</button>
 
             </div>
           </div>
@@ -82,8 +90,8 @@
               <table class="table table-sm table-borderless table-light" cellspacing="0" cellpadding="0">
                 <thead>
                   <tr>
-                    <td colspan="2">
-                      <h2 class="text-danger">EXPERIENCE</h2>
+                    <td colspan="2" class="no-border">
+                      <h2 class="text-danger"><img src="files/logo/experience-logo.png" width="40px" height="40px"> &nbsp;WORK EXPERIENCE</h2>
                     </td>
                   </tr>
                 </thead>
@@ -93,23 +101,23 @@
 
                   <!------------DESIGNATION------------>
                   <tr>
-                    <th class="CV-timeline">&nbsp; SENIOR ADMINISTRATOR</th>
+                    <th><span class="dot"></span> &nbsp; SENIOR ADMINISTRATOR</th>
                   </tr>
 
                   <!------------COMPANY NAME------------>
                   <tr>
-                    <td class="text-primary">WIPRO Limited</td>
+                    <td class="text-secondary"><img src="files/logo/wipro-logo.jpeg" width="40px" height="40px"> &nbsp; <b>WIPRO Limited</b></td>
                   </tr>
 
                   <!------------START DATE & LOCATION------------>
                   <tr>
                     <td><small><i>11/2022 - Present</i></small></td>
-                    <td><small><i>Pune, Maharashtra</i></small></td>
+                    <td class="no-border"><small><i><img src="files/logo/location-logo.png" width="25px" height="25px">&nbsp; Pune, Maharashtra</i></small></td>
                   </tr>
 
                   <!------------ABOUT------------>
                   <tr>
-                    <th><small><i>About</i></small></th>
+                    <td><small><i><b>About</b></i></small></td>
                   </tr>
 
                   <!------------JOB ROLE------------>
@@ -131,28 +139,28 @@ workﬂow and eﬃcient problem resolution</li>
 
                   <!------------DESIGNATION------------>
                   <tr>
-                    <th class="CV-timeline">&nbsp; SENIOR TECHNICAL SUPPORT</th>
+                    <th><span class="dot"></span> &nbsp; SENIOR TECHNICAL SUPPORT</th>
                   </tr>
 
                   <!------------COMPANY NAME------------>
                   <tr>
-                    <td class=text-primary>CONCENTRIX</td>
+                    <td class="text-secondary" id="four"><img src="files/logo/concentrix-logo.jpeg" width="40px" height="40px"> &nbsp; <b>CONCENTRIX</b></td>
                   </tr>
 
                   <!------------START DATE & LOCATION------------>
                   <tr>
-                    <td><small><i>2021 - 2022</i></small></td>
-                    <td><small><i>Pune, Maharashtra</i></small></td>
+                    <td id="three"><small><i>2021 - 2022</i></small></td>
+                    <td class="no-border"><small><i><img src="files/logo/location-logo.png" width="25px" height="25px">&nbsp; Pune, Maharashtra</i></small></td>
                   </tr>
 
                   <!------------ABOUT------------>
                   <tr>
-                    <th><small><i>About</i></small></th>
+                    <td id="two"><small><i><b>About</b></i></small></td>
                   </tr>
 
                   <!------------JOB ROLE------------>
                   <tr>
-                    <td colspan="2">
+                    <td colspan="2" id="one">
                       <ul>
                         <li>I was working as a Dell technical advisor at concentrix. My
 responsibilities are mostly to provide support to the premium
@@ -166,18 +174,18 @@ globally as a technical advisor.</li>
 
                   <!------------DESIGNATION------------>
                   <tr>
-                    <th class="CV-timeline">&nbsp; INDUSTRIAL TRAINEE TECHNICAL SUPPORT</th>
+                    <th><span class="dot"></span>&nbsp; INDUSTRIAL TRAINEE TECHNICAL SUPPORT</th>
                   </tr>
 
                   <!------------COMPANY NAME------------>
                   <tr>
-                    <td class="text-primary">PAYTM</td>
+                    <td class="text-secondary no-border"><img src="files/logo/paytm-logo.jpeg" width="40px" height="40px"> &nbsp; <b>PAYTM</b></td>
                   </tr>
 
                   <!------------START DATE & LOCATION------------>
                   <tr>
-                    <td><small><i>01/2017 - 01/2018</i></small></td>
-                    <td><small><i>Jabalpur, Madhya Pradesh</i></small></td>
+                    <td class="no-border"><small><i>01/2017 - 01/2018</i></small></td>
+                    <td class="no-border"><small><i><img src="files/logo/location-logo.png" width="25px" height="25px">&nbsp; Jabalpur, M.P.</i></small></td>
                   </tr>
 
                   <!------------ABOUT------------>
@@ -188,7 +196,7 @@ globally as a technical advisor.</li>
                   <!------------JOB ROLE------------>
                   
                   <tr>
-                    <td colspan="2">
+                    <td colspan="2" class="no-border">
                       <ul>
                         <li>Having one year of experience as a Industrial Trainee Technical Support at Paytm One97 limited.</li>
                       </ul>
@@ -206,8 +214,8 @@ globally as a technical advisor.</li>
               <table class="table table-sm table-borderless table-light">
                 <thead>
                   <tr>
-                    <td colspan="2">
-                      <h2 class="text-danger">EDUCATION</h2>
+                    <td colspan="2" class="no-border">
+                      <h2 class="text-danger"><img src="files/logo/education-logo.webp" width="40px" height="40px"> &nbsp;EDUCATION</h2>
                     </td>
                   </tr>
                 </thead>
@@ -217,36 +225,39 @@ globally as a technical advisor.</li>
 
                   <!------------DEGREE------------>
                   <tr>
-                    <th colspan="2" class="CV-timeline">&nbsp; Master of Engineering (M.Tech) Specialization in Digital Communication</th>
+                    <th colspan="2"><span class="dot"></span> &nbsp; Master of Engineering (M.Tech) Specialization in Digital Communication</th>
                   </tr>
 
                   <!------------COLLEGE NAME------------>
                   <tr>
-                    <td colspan="1">RGPV, BHOPAL</td>
+                    <td colspan="1" class="text-secondary"><b>RGPV, BHOPAL</b></td>
                   </tr>
 
                   <!------------START DATE & LOCATION------------>
                   <tr>
                     <td><small><i>06/2022</i></small></td>
-                    <td><small><i>Jabalpur, Madhya Pradesh</i></small></td>
+                    <td class="no-border"><small><i><img src="files/logo/location-logo.png" width="25px" height="25px">&nbsp; Jabalpur, M.P.</i></small></td>
                   </tr>
 
                   <!----------------EDUCATION SECOND---------------------->
+                  <tr>
+                    <td colspan="2"><hr><br></td>
+                  </tr>
 
                   <!------------DEGREE------------>
                   <tr>
-                    <th colspan="2" class="CV-timeline">&nbsp; Bachelor of Engineering (B.Tech) Specialization in Electronics & Communication</th>
+                    <th colspan="2"><span class="dot"></span> &nbsp; Bachelor of Engineering (B.Tech) Specialization in Electronics & Communication</th>
                   </tr>
 
                   <!------------COLLEGE NAME------------>
                   <tr>
-                    <td colspan="1">Gyan Ganga College Of Technology And Science.</td>
+                    <th colspan="1" class="no-border text-secondary">Gyan Ganga College Of Technology And Science.</th>
                   </tr>
 
                   <!------------START DATE & LOCATION------------>
                   <tr>
-                    <td><small><i>2012 - 2016</i></small></td>
-                    <td><small><i>Jabalpur, Madhya Pradesh</i></small></td>
+                    <td class="no-border"><small><i>2012 - 2016</i></small></td>
+                    <td class="no-border"><small><i><img src="files/logo/location-logo.png" width="25px" height="25px">&nbsp; Jabalpur, M.P.</i></small></td>
                   </tr>
 
               </table>
@@ -264,7 +275,7 @@ globally as a technical advisor.</li>
             <!---------TABLE HEADING--------->
             <thead>
               <tr>
-                <td colspan="2">
+                <td colspan="2" class="no-border">
                   <h2 class="text-danger">General Info</h2>
                 </td>
               </tr>
@@ -273,43 +284,35 @@ globally as a technical advisor.</li>
             <tbody>
               <!------------BIRTHDAY------------>
               <tr>
-                <th>Birth Date</th>
-                <td>August 06</td>
+                <th><img src="files/logo/info-date-logo.jpg" width="25px" height="25px"> &nbsp; Birth Date</th>
+                <td class="no-border">August 06</td>
               </tr>
 
               <!------------Email ID------------>
               <tr>
-                <th>Email</th>
-                <td>erhimanshu44444@gmail.com</td>
+                <th><img src="files/logo/info-email-logo.png" width="25px" height="25px"> &nbsp; Email</th>
+                <td class="no-border">erhimanshu44444@gmail.com</td>
               </tr>
 
               <!------------Mobile Number------------>
               <tr>
-                <th>Phone</th>
-                <td>+91 9144444765</td>
+                <th><img src="files/logo/info-phone-logo.png" width="25px" height="25px"> &nbsp; Phone</th>
+                <td class="no-border">+91 9144444765</td>
               </tr>
 
               <!------------Address------------>
               <tr>
-                <th>Address</th>
-                <td>Phase 1 Hinjewadi, Pune, Maharashtra</td>
+                <th><img src="files/logo/info-address-logo.png" width="25px" height="25px"> &nbsp; Address</th>
+                <td class="no-border">Hinjewadi Pune, Maharashtra</td>
               </tr>
 
               <!------------Total Ex.------------>
               <tr>
-                <th>Total Experience</th>
-                <td>3+ yrs</td>
+                <th><img src="files/logo/info-experience-logo.png" width="25px" height="25px"> &nbsp; Total Experience</th>
+                <td class="no-border">3+ yrs</td>
               </tr>
 
               <!------------LinkedIn Link------------>
-              <tr>
-                <th>LinkedIn</th>
-                <td>
-                  <a class="link-danger" href="https://www.linkedin.com/in/shubhanshu-chourasia-54080b140/">
-                    @Himanshu-Chourasia
-                  </a>
-                </td>
-              </tr>
 
             </tbody>
           </table>
@@ -319,9 +322,20 @@ globally as a technical advisor.</li>
         <br>
         <br>
         <div class="text-center container">
-          <a class="btn btn-danger btn-lg" href="https://shub.pythonanywhere.com/media/project_file/Shubhanshus_Resume-React.pdf" download="">
-            Download Resume
-          </a>
+          <ul class="list-group mb-3">
+            <li class="d-flex justify-content-between text-center">
+
+              <!------------CHECK PROJECT BUTTON------------>
+                <a class="btn btn-primary btn-md" href="">
+                  Go To LinkedIn
+                </a>
+
+              <!------------RESUME BUTTON------------>
+                <a class="btn btn-danger btn-md" href="/media/project_file/Shubhanshus_Resume-React.pdf" download="">
+                  Download CV
+                </a>
+            </li>
+          </ul>
         </div>
 
       </div>
